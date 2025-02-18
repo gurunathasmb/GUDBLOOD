@@ -1,0 +1,10 @@
+body {
+  background-color: #020617;
+  /* background-image: url(./Assets/grid-bg.png); */
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Jost", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+  background-color: 020617;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fadedown {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.homeanim {
+  animation: fadeup 1.4s;
+}
+
+
+.slow {
+  animation: fadeup 2.4s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.2s;
+  opacity: 0;
+  transform: translateY(30px) scale(0.9);
+}
+
+.slow.appear {
+  opacity: 1;
+  transform: translateY(0px) scale(1);
+}

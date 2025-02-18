@@ -1,0 +1,42 @@
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  #page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #content-wrap {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .custom-image {
+    height: auto;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  .footer .text-muted {
+    color: #ccc !important;
+  }

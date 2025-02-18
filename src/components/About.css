@@ -1,0 +1,40 @@
+.page-container {
+    margin-top: 50px;
+    position: relative;
+    min-height: 84vh;
+  }
+  .content-wrap {
+    padding-bottom: 50px;
+  }
+  h1.mt-4.mb-3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  .img-fluid.rounded {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-lg-6 {
+      margin-bottom: 20px;
+    }
+  
+    h1.mt-4.mb-3 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .img-fluid.rounded {
+      height: 300px;
+    }
+  }
